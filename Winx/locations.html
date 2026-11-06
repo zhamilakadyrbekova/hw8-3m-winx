@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Winx Magic World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/logo-winx.png">
+    <link rel="icon" type="image/svg+xml" href="/img/logo-winx.png">
+    <link rel="shortcut icon" href="/img/logo-winx.png">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/container.css">
+    <link rel="stylesheet" href="css/location.css">
+    <script defer src="js/location.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+<div id="site-header"></div>
+<section class="locations" id="locations">
+    <div class="stars"></div>
+
+    <div class="loc-head">
+        <p class="script">Волшебные места</p>
+        <h2>Локации Winx</h2>
+        <p>Нажми на название места, чтобы узнать его тайны ✦</p>
+    </div>
+
+    <div class="filters" id="filters"></div>
+    <div id="locList"></div>
+</section>
+<dialog class="modal" id="locModal" aria-labelledby="mTitle">
+    <button class="m-close" id="mClose" aria-label="Закрыть">✕</button>
+    <div class="m-inner">
+        <div class="m-pic" id="mPic"></div>
+        <div class="m-body">
+            <span class="loc-tag" id="mTag"></span>
+            <h3 id="mTitle"></h3>
+            <div id="mText"></div>
+        </div>
+    </div>
+</dialog>
+<div class="footer">
+
+</div>
+</body>
+</html>

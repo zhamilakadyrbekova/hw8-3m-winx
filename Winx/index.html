@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Winx Magic World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/logo-winx.png">
+    <link rel="icon" type="image/svg+xml" href="/img/logo-winx.png">
+    <link rel="shortcut icon" href="/img/logo-winx.png">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/container.css">
+</head>
+<body>
+<div id="site-header"></div>
+    <div class="main">
+        <div class="container">
+            <div class="main-content">
+                <div class="main-text-left">
+                    <h1>Добро пожаловать в мир Winx! <img src="img/main-magic.png" alt=""></h1>
+                    <p>Открой свою магическую силу и отправляйся навстречу приключениям всесте с феями Winx! </p>
+                </div>
+                <div class="main-img-right">
+                    <img src="/img/main-img-winx.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="charactersCard">
+        <div class="container">
+            <div class="fairies">
+                <button class="fcard" type="button" aria-pressed="false"
+                        data-name="Блум" data-power="Огонь Дракона"
+                        data-text="Единственная фея, выросшая на Земле. Её сила — пламя Дракона. Смелая, упрямая и верная подруга.">
+                    <div class="fart" style="background:#FF8A4C">
+                        <img src="./img/characters/bloom.jpg" alt="Блум">
+                    </div>
+                    <b>Блум</b><span class="power">Огонь Дракона</span>
+                </button>
+
+                <button class="fcard" type="button" aria-pressed="false"
+                        data-name="Стелла" data-power="Солнце и Луна"
+                        data-text="Фея света и стиля. Принцесса, которая любит моду и умеет поднять настроение даже в самый пасмурный день.">
+                    <div class="fart" style="background:#FF8A4C">
+                        <img src="./img/characters/stella.jpg" alt="Блум">
+                    </div>
+                    <b>Стелла</b><span class="power">Солнце и Луна</span>
+                </button>
+
+                <button class="fcard" type="button" aria-pressed="false"
+                        data-name="Флора" data-power="Природа"
+                        data-text="Добрая и заботливая фея, говорящая с растениями. Умеет вырастить сад там, где его никогда не было.">
+                    <div class="fart" style="background:#FF8A4C">
+                        <img src="./img/characters/flora.jpg" alt="Блум">
+                    </div>
+                    <b>Флора</b><span class="power">Природа</span>
+                </button>
+
+                <button class="fcard" type="button" aria-pressed="false"
+                        data-name="Муза" data-power="Музыка"
+                        data-text="Фея музыки. Чувствует мир как мелодию и превращает звук в настоящую магию.">
+                    <div class="fart" style="background:#FF8A4C">
+                        <img src="./img/characters/muza.jpg" alt="Блум">
+                    </div>
+                    <b>Муза</b><span class="power">Музыка</span>
+                </button>
+
+                <button class="fcard" type="button" aria-pressed="false"
+                        data-name="Текна" data-power="Технологии"
+                        data-text="Умная и точная фея технологий. Любит логику, схемы и всегда находит решение сложной задачи.">
+                    <div class="fart" style="background:#FF8A4C">
+                        <img src="./img/characters/tecna.jpg" alt="Блум">
+                    </div>
+                    <b>Текна</b><span class="power">Технологии</span>
+                </button>
+
+                <button class="fcard" type="button" aria-pressed="false"
+                        data-name="Лейла" data-power="Жидкость Морфикс"
+                        data-text="Фея морфикса и воды. Любит спорт и приключения, а ещё умеет подстроиться под любую ситуацию.">
+                    <div class="fart" style="background:#FF8A4C">
+                        <img src="./img/characters/leila.jpg" alt="Блум">
+                    </div>
+                    <b>Лейла</b><span class="power">Жидкость Морфикс</span>
+                </button>
+            </div>
+
+            <div class="detail" id="detail" aria-live="polite">
+                <span class="hint">Выбери фею, чтобы узнать о ней больше.</span>
+            </div>
+        </div>
+    </div>
+    <div id="seasons-slider"></div>
+    <div class="video">
+        <div class="container">
+            <div class="video-block">
+                <div>
+                    <div class="video-left">
+                        <div class="video-view">
+                            <img src="img/video-player.png" alt="">
+                            <p>Смотрим серии</p>
+                        </div>
+                        <div>
+                            <a href="https://www.youtube.com/watch?v=t7uT1tCsGk4&list=PLlYTGT_q3amNOm66_R0WVm6kxq78wUo-Q" class="all-link">
+                                Все серии
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                     stroke="currentColor" stroke-width="2.5"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 12h16M14 6l6 6-6 6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="video-youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/t7uT1tCsGk4?si=eEXlvkLfyGpOTx0h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h3>1 серия - Вдохновения Сиреникса</h3>
+                        <p>Шесть девочек, шесть стихий, одна школа.</p>
+                        <p>Начинается удивительная история!</p>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="video-right">
+                    <div>
+                        <h1>Магия дружбы</h1>
+                        <h3>"Настоящая сила  -  в дружбе!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-block">
+            </div>
+        </div>
+    </div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

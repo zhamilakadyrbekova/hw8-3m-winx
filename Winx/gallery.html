@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Winx Magic World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/logo-winx.png">
+    <link rel="icon" type="image/svg+xml" href="/img/logo-winx.png">
+    <link rel="shortcut icon" href="/img/logo-winx.png">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/container.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="gallery-page">
+    <canvas id="stars" aria-hidden="true"></canvas>
+
+    <section class="gallery-hero">
+        <h1>Волшебная галерея</h1>
+        <p>Мгновения из мира Винкс: феи, замок Алфеи, магические предметы и самые красивые арты.
+            Выбери раздел и нажми на картинку, чтобы увидеть её целиком.</p>
+    </section>
+
+    <nav class="filters" id="filters" aria-label="Разделы галереи"></nav>
+
+    <section class="gallery-grid" id="grid" aria-live="polite"></section>
+</main>
+
+<div class="footer">
+</div>
+<script src="/js/gallery.js"></script>
+</body>
+</html>
